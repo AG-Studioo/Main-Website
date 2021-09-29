@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Graphik;
+    src: url(Fonts/GraphikMedium.otf);
+  }
+
+  @font-face {
+    font-family: GraphikLight;
+    src: url(Fonts/GraphikLight.otf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #191919;
+    background-image: url(images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.navbar li a{
+    font-size: 1em;
+    text-decoration: none;
+    font-family: Graphik;
+    color: white;
+    transition: .5s ease;
+}
+
+.navbar li a:hover{
+    color: #00F0FF;
+}
+
+
+.text {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.text h1{
+    font-size: 4vw;
+    font-family: Graphik;
+    color: white;
+    
+}
+
+.text h2{
+    font-size: 3vw;
+    font-family: GraphikLight;
+    color: white;
+}
+span {
+    color: white;
+    transition: .3s ease;
+}
+
+span:hover{
+    color: #00F0FF;
+    cursor: pointer;
+}
+
+
+
+
+
+
