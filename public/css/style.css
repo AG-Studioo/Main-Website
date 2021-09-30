@@ -89,19 +89,39 @@ button {
     padding: 10px;
     font-size: 100px;
     font-family: Graphik;
+    text-shadow: 7px 5px 1px grey;
     color: white;
     cursor: pointer;
 }
 
-.title h2 {
+.title .quotes {
     width: 30%;
     text-align: center;
     font-size: 16px;
     font-family: GraphikLight;
     font-style: italic;
     color: white;
+    animation: fadeInAnimation ease 20s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
 }
 
 span {
     color: rgb(0, 204, 255);
+    text-shadow: 7px 5px 1px rgb(4, 111, 138);
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+     }
 }
