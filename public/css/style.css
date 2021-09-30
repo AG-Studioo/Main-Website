@@ -7,10 +7,16 @@
     font-family: GraphikLight;
     src: url(../Fonts/GraphikLight.otf);
   }
+  @font-face {
+    font-family: GraphikRegular;
+    src: url(../Fonts/GraphikRegular.otf);
+  }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 html, body {
@@ -20,77 +26,82 @@ html, body {
     background-size: cover;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-}
-
-.navbar li{
-    display: inline-block;
-    padding: 20px 10px;
-}
-
-.navbar li a{
-    font-size: 1em;
+li, a, button{
+    font-family: Graphik;
+    font-size: 18px;
+    color: #ecf0f1;
     text-decoration: none;
-    font-family: Graphik;
-    color: white;
-    transition: .5s ease;
 }
 
-.navbar li a:hover{
-    color: #00F0FF;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
+.logo {
+    width: 20%;
+    height: 20%;
+}
 
-.text {
-    position: relative;
-    top: 100px;
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.navlinks li a {
+    transition: all .3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: rgb(0, 204, 255);
+}
+
+button {
+    color: rgb(0, 204, 255);
+    padding: 9px 25px;
+    border: 1px solid rgb(0, 204, 255);
+    background-color: inherit;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+
+}
+
+.body {
+    padding: 50px 10%;
+}
+
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 
-.text h1{
-    font-size: 4vw;
+.title h1 {
+    letter-spacing: 5px;
+    padding: 10px;
+    font-size: 100px;
     font-family: Graphik;
     color: white;
-    
-}
-
-.text h2{
-    font-size: 3vw;
-    font-family: GraphikLight;
-    color: white;
-}
-span {
-    color: white;
-    transition: .3s ease;
-}
-
-span:hover{
-    color: #00F0FF;
     cursor: pointer;
 }
 
+.title h2 {
+    width: 30%;
+    text-align: center;
+    font-size: 16px;
+    font-family: GraphikLight;
+    font-style: italic;
+    color: white;
+}
 
-
-
-
-
+span {
+    color: rgb(0, 204, 255);
+}
