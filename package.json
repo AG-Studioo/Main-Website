@@ -1,0 +1,27 @@
+{
+  "name": "Main-Website",
+  "version": "1.0.0",
+  "description": "Main / Info Website about AG Studios",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AG-Industries/Main-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AG-Industries/Main-Website/issues"
+  },
+  "homepage": "https://github.com/AG-Industries/Main-Website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
