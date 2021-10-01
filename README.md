@@ -2,5 +2,5 @@
 Main / Info Website about AG Studios
 
 # created by
-    [Matic Babnik](https://github.com/MaticBabnik)
+    [Gal Podlipnik](https://me.pogers.si)
     [Aljaz Radovan](https://me.aljazek.si)
