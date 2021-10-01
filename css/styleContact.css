@@ -83,10 +83,15 @@ button{
 
 .text {
     font-family: Graphik;
+    text-align: center;
     font-size: 25px;
     color: #ecf0f1;
     text-decoration: none;
     padding: 50px 10%;
+}
+
+span {
+    font-family: GraphikLight;
 }
 .form {
     background: rgba(59, 61, 63, 0.7);
@@ -127,4 +132,20 @@ button{
 .send:focus {
     transform: translateY(3px);
     
+}
+
+.footer {
+    font-family: Graphik;
+    font-size: 12px;
+    color: white;
+    margin-top: 100px;
+    display: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer h3 {
+    text-transform: uppercase;
 }

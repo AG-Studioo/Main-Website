@@ -125,3 +125,12 @@ span {
         opacity: 0;
      }
 }
+
+
+.footer {
+    display: none;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+}
